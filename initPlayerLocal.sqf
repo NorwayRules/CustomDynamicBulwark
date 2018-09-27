@@ -21,7 +21,7 @@ player addEventHandler ['Respawn',{
 
 _killPoints = player getVariable "killPoints";
 if(isNil "_killPoints") then {
-    _killPoints = 0;
+    _killPoints = 100000;
 };
 _killPoints = _killPoints + ("START_KILLPOINTS" call BIS_fnc_getParamValue);
 player setVariable ["killPoints", _killPoints, true];

@@ -6,17 +6,14 @@
 *  Domain: Client
 **/
 
-_shouldDelete = false;
-_shouldDelete = _this select 3;
+_bulwarkCommand = "false";
+_bulwarkCommand = _this select 3;
+_ammoPlayer = _this select 1;
 
-if (_shouldDelete == false) then {
+if (_bulwarkCommand == "false") then {
   _ammoBox = _this select 0;
-  _ammoPlayer = _this select 1;
   deleteVehicle _ammoBox;
-}
-else {
-  _ammoPlayer = player;
-}
+};
 
 _pWeap = primaryWeapon _ammoPlayer;
 if (_pWeap != "") then {
@@ -39,6 +36,6 @@ if (_hWeap != "") then {
   _ammoPlayer addMagazines [_ammoToAdd, 3];
 };
 
-if (_shouldDelete == true) then {
-  [player, 2500] remoteExec ["killPoints_fnc_spend", 2];
-}
+if (_bulwarkCommand == "true") then {
+  [player, 1500] remoteExec ["killPoints_fnc_spend", 2];
+};
