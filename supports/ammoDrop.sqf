@@ -6,9 +6,12 @@
 *  Domain: Client
 **/
 
-params[_shouldDelete]
+_shouldDelete = false;
+_shouldDelete = _this select 3;
 
-if (_shouldDelete) then {
+hint "Yo fag!"
+
+if (_shouldDelete == false) then {
   _ammoBox = _this select 0;
   deleteVehicle _ammoBox;
 }
