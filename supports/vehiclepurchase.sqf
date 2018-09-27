@@ -1,15 +1,15 @@
 /**
 *  supports/purchase
 *
-*  Actor for the "Purchase support" dialog button
+*  Actor for the "Purchase VEHICLE" dialog button
 *
 *  Domain: Client
 **/
 
-_index = lbCurSel 1501;
+_index = lbCurSel 1502;
 shopVehic = objNull;
 
-_shopItem = BULWARK_SUPPORTITEMS select _index;
+_shopItem = BULWARK_VEHICLE select _index;
 _shopPrice = (_shopItem) select 0;
 _shopName  = (_shopItem) select 1;
 _shopClass = (_shopItem) select 2;

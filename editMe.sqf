@@ -91,11 +91,11 @@ BULWARK_BUILDITEMS = [
 ];
 
 BULWARK_VEHICLE = [
-
+	[0, "Super Tank",   "tank"]
 ];
 
 BULWARK_ITEM = [
-    [0, "30 Rnd 5.56 Stang Green",  "30Rnd_556x45_Stanag_Tracer_Green"]
+    [50, "30 Rnd 5.56 Stang Green",  "30Rnd_556x45_Stanag_Tracer_Green"]
 ];
 
 /* Time of Day*/
