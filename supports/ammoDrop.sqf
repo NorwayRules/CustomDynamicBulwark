@@ -9,14 +9,14 @@
 _shouldDelete = false;
 _shouldDelete = _this select 3;
 
-hint str _this;
-hint str _shouldDelete;
-
 if (_shouldDelete == false) then {
   _ammoBox = _this select 0;
+  _ammoPlayer = _this select 1;
   deleteVehicle _ammoBox;
 }
-_ammoPlayer = _this select 1;
+else {
+  _ammoPlayer = player;
+}
 
 _pWeap = primaryWeapon _ammoPlayer;
 if (_pWeap != "") then {
@@ -39,6 +39,6 @@ if (_hWeap != "") then {
   _ammoPlayer addMagazines [_ammoToAdd, 3];
 };
 
-if (_shouldDelete == false) then {
+if (_shouldDelete == true) then {
   [player, 2500] remoteExec ["killPoints_fnc_spend", 2];
 }
