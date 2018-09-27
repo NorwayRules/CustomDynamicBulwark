@@ -6,10 +6,13 @@
 *  Domain: Client
 **/
 
-_ammoBox = _this select 0;
-_ammoPlayer = _this select 1;
+params[_shouldDelete]
 
-deleteVehicle _ammoBox;
+if (_shouldDelete) then {
+  _ammoBox = _this select 0;
+  deleteVehicle _ammoBox;
+}
+_ammoPlayer = _this select 1;
 
 _pWeap = primaryWeapon _ammoPlayer;
 if (_pWeap != "") then {
@@ -31,3 +34,7 @@ if (_hWeap != "") then {
   _ammoToAdd = selectRandom _ammoArray;
   _ammoPlayer addMagazines [_ammoToAdd, 3];
 };
+
+if (_shouldDelete) then {
+  [player, 2500] remoteExec ["killPoints_fnc_spend", 2];
+}
