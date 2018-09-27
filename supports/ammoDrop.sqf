@@ -38,6 +38,6 @@ if (_hWeap != "") then {
   _ammoPlayer addMagazines [_ammoToAdd, 3];
 };
 
-if (_shouldDelete) then {
+if (_shouldDelete == false) then {
   [player, 2500] remoteExec ["killPoints_fnc_spend", 2];
 }
