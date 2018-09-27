@@ -9,8 +9,8 @@
 _shouldDelete = false;
 _shouldDelete = _this select 3;
 
-hint _this
-hint _shouldDelete
+hint str _this;
+hint str _shouldDelete;
 
 if (_shouldDelete == false) then {
   _ammoBox = _this select 0;
