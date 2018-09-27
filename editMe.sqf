@@ -91,6 +91,11 @@ BULWARK_BUILDITEMS = [
 ];
 
 BULWARK_VEHICLE = [
+	[0, "Tank",   								"tank"],
+	[0, "APC",  							    "apc"],
+	[0, "Hunter GMG",   						"huntergmg"],
+	[0, "Hunter HMG",  						    "hunterhmg"],
+	[0, "Hummingbird",   						"hummingbird"]
 ];
 
 BULWARK_ITEM = [

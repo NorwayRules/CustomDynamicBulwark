@@ -84,7 +84,7 @@ class startBox_rscPicture: RscPicture
             y = 0.8 * safezoneH + safezoneY;
             w = 0.185 * safezoneW;
             h = 0.04 * safezoneH;
-            action = "_nil=[]ExecVM ""vehicles\purchase.sqf""";
+            action = "_nil=[]ExecVM ""supports\vehiclepurchase.sqf""";
         };
 		
 		// Items

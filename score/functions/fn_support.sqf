@@ -31,4 +31,16 @@ switch (_type) do {
 	case ("tank"): {
     [_player] call supports_fnc_tank;
     };
+	case ("hummingbird"): {
+    [_player] call supports_fnc_hummingbird;
+    };
+	case ("apc"): {
+    [_player] call supports_fnc_apc;
+    };
+	case ("hunterhmg"): {
+    [_player] call supports_fnc_hunterhmg;
+    };
+	case ("huntergmg"): {
+    [_player] call supports_fnc_huntergmg;
+    };
 };

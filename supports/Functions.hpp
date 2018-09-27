@@ -10,5 +10,9 @@ class supports
         class ragePack {};
         class armaKart {};
 		class tank {};
+		class apc {};
+		class hummingbird {};
+		class hunterhmg {};
+		class huntergmg {};
     };
 };
