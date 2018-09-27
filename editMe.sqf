@@ -63,7 +63,7 @@ BULWARK_SUPPORTITEMS = [
     [5430, "Missle CAS",    "airStrike"],
     [5930, "Rage Stimpack", "ragePack"],
     [6666, "ARMAKART TM",   "armaKart"],
-	[12000, "Super Tank",   "tank"]
+	[0, "Super Tank",   "tank"]
 ];
 
 /* Price - Display Name - Class Name - Rotation When Held */
@@ -91,11 +91,25 @@ BULWARK_BUILDITEMS = [
 ];
 
 BULWARK_VEHICLE = [
-
 ];
 
 BULWARK_ITEM = [
-    [0, "30 Rnd 5.56 Stang Green",  "30Rnd_556x45_Stanag_Tracer_Green"]
+    [500, "4-Five .45 ACP",                      "hgun_Pistol_heavy_01_F"],                // Pistol
+    [500, "Zubr .45 ACP",                        "hgun_Pistol_heavy_02_F"],                // Pistol
+    [500, "Rook-40 9mm",                         "hgun_Rook40_F"],                         // Pistol
+    [500, "ACP-C2 .45 ACP",                      "hgun_ACPC2_F"],                          // Pistol
+    [1500, "MXM RCO (Suppressed) 6.5mm",         "arifle_MXM_RCO_pointer_snds_F"],         // Rifle
+    [1500, "TRG-21 EGLM 5.56mm",                 "arifle_TRG21_GL_F"],                     // Rifle
+    [1500, "LMG Mk200 6.5mm",                    "LMG_Mk200_F"],                           // Rifle
+    [1500, "SPAR-16 5.56mm",                     "arifle_SPAR_01_GL_blk_ERCO_Pointer_F"],  // Rifle
+    [1200, "RPG-7",                              "launch_RPG7_F"],                         // Rocket Launcher
+    [1700, "RPG-42 Almut Launcher",              "launch_RPG32_F"],                        // Rocket Launcher
+    [2000, "Titan Launcher AA",                  "launch_Titan_F"],                        // Rocket Launcher
+    [2000, "Titan Launcher AT/AP",               "launch_B_Titan_short_F"],                // Rocket Launcher
+    [1500, "Mk18 (Suppressed) 7.62mm",           "srifle_EBR_ARCO_pointer_snds_F"],        // Sniper Rifle
+    [1500, "Lynx 12.7mm",                        "srifle_GM6_F"],                          // Sniper Rifle
+    [1500, "MAR-10 (Suppressed) .338mm",         "srifle_DMR_02_sniper_AMS_LP_S_F"],       // Sniper Rifle
+    [1500, "M320 .408mm",                        "srifle_LRR_tna_F"]                       // Sniper Rifle
 ];
 
 /* Time of Day*/
