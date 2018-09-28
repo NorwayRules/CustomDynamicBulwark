@@ -1,7 +1,7 @@
 /**
 *  supports/purchase
 *
-*  Actor for the "Purchase VEHICLE" dialog button
+*  Actor for the "Purchase support" dialog button
 *
 *  Domain: Client
 **/

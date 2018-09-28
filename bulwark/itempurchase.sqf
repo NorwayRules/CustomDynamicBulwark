@@ -24,4 +24,3 @@ player addWeapon _itemClass
     objPurchase = false;
 };
 
-
