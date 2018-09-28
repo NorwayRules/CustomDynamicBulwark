@@ -62,8 +62,7 @@ BULWARK_SUPPORTITEMS = [
     [1950, "Paratroopers",  "paraDrop"],
     [5430, "Missle CAS",    "airStrike"],
     [5930, "Rage Stimpack", "ragePack"],
-    [6666, "ARMAKART TM",   "armaKart"],
-	[0, "Super Tank",   "tank"]
+    [6666, "ARMAKART TM",   "armaKart"]
 ];
 
 /* Price - Display Name - Class Name - Rotation When Held */
@@ -91,11 +90,10 @@ BULWARK_BUILDITEMS = [
 ];
 
 BULWARK_VEHICLE = [
-	[0, "Tank",   								"tank"],
-	[0, "APC",  							    "apc"],
-	[0, "Hunter GMG",   						"huntergmg"],
-	[0, "Hunter HMG",  						    "hunterhmg"],
-	[0, "Hummingbird",   						"hummingbird"]
+	[12000, "Tank",   								"tank"],
+	[10000, "APC",  							    "apc"],
+	[8000, "Hunter GMG",   							"huntergmg"],
+	[6500, "Hunter HMG",  						    "hunterhmg"]
 ];
 
 BULWARK_ITEM = [
